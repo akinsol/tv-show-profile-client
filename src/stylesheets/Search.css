@@ -1,0 +1,26 @@
+#results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+    width: 40%;
+}
+
+
+#results button {
+    transition-duration: 0.4s;
+    margin: 0.25%;
+    display: block;
+    background-color: black;
+    color: pink;
+    border: white;
+    width: 100%;
+    font-size: 100%;
+    padding: 2%;
+}
+
+#results button:hover {
+    color: #fdb9c8;
+    background-color: white;
+}
